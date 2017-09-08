@@ -1,0 +1,10 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
+header {
+    display: block;
+    height: 100px;
+    background: dimgray;
+}
