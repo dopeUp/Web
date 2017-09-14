@@ -15,36 +15,68 @@
             </a>
             <a href="#">8 800 555 35 35</a>
             <input type="search" placeholder="Поиск по сайту">
-            <a href="#">Личный кабинет</a>
+            <a href="#" class="popUp">Личный кабинет</a>
             <a href="#">Корзина</a>
         </div>
-        <div class="mainMenu">
-            <a href="#">Все категории</a>
-            <a href="#">Доставка</a>
-            <a href="#">Гарантия</a>
-            <a href="#">Контакты</a>
-        </div>
+        <ul class="site-menu">
+            <li>
+                <a href="#">Все категории</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </li>
+            <li><a href="#">Lоставка</a></li>
+            <li><a href="#">Гарантия</a></li>
+            <li><a href="#">Контакты<</a></li>
+        </ul>
     </nav>
 </header>
 
+<!--<div class="popUpMenu">-->
 
-<section class="laptops">
-    <div class="informationAboutLaptops">
-        <h2>Ноутбуки для офиса и дома</h2>
-        <p>asdasdsadsadsadsadsadsadasdasdasdasdasdasadasdas</p>
-        <a href="#">Подробнее</a>
-        <div class="sliderLaptops">
-            <label for="btn1"></label>
-            <input type="radio" id="btn1">
-            <label for="btn2"></label>
-            <input type="radio" id="btn2">
-            <label for="btn3"></label>
-            <input type="radio" id="btn3">
+    <!--<div class="firstMenuItem">-->
+        <!--<a href="#"Роутеры></a>-->
+        <!--<a href="#">Игровые симуляторы</a>-->
+        <!--<a href="#">Комплектующие</a>-->
+    <!--</div>-->
+    <!--<div class="secondMenuItem">-->
+        <!--<a href="#">Периферия</a>-->
+        <!--<a href="#">Настольные лампы</a>-->
+    <!--</div>-->
+    <!--<div class="thirdMenuItem">-->
+        <!--<a href="#">Моноблоки и ноутбуки</a>-->
+    <!--</div>-->
+<!--</div>-->
+
+<section class="laptops-slider">
+    <div class="sliderLaptops">
+        <label for="btn1"></label>
+        <label for="btn2"></label>
+        <label for="btn3"></label>
+    </div>
+    <div class="laptops-slider-slides">
+        <input type="radio" id="btn1">
+        <div class="slide">
+
         </div>
-    </div>
-    <div class="pictureOfLaptop">
-        <img src="http://placehold.it/150x100" alt="Magno">
-    </div>
+        <input type="radio" id="btn2">
+        <div class="slide">
+
+        </div>
+        <input type="radio" id="btn3">
+        <div class="slide">
+            <h2>Ноутбуки для офиса и дома</h2>
+            <p>asdasdsadsadsadsadsadsadasdasdasdasdasdasadasdas</p>
+            <a href="#">Подробнее</a>
+            <img src="http://placehold.it/150x100" alt="Magno">
+        </div>
+
+     </div>
 </section>
 
 <section class="range">
@@ -216,6 +248,35 @@
             </li>
         </ul>
     </div>
+
+    <section class="popUpDashboard">
+        <h2>Личный кабинет</h2>
+        <p>Введите свой логин и пароль</p>
+        <input type="edit" placeholder="Логин">
+        <input type="edit" placeholder="Пароль">
+        <input type="checkbox">Запомнить меня
+        <a href="#">Я забыл пароль</a>
+        <a href="#">Войти</a>
+    </section>
+
+    <section class="popUpWriteUs">
+        <div class="info">
+            <h3>Ваше имя:</h3>
+            <input type="edit" placeholder="Представтесь, пожалуйста">
+            <h3>Ваш e-mail:</h3>
+            <input type="edit" placeholder="Для отправки ответа">
+        </div>
+        <div class="letter">
+            <h3>Текст письма:</h3>
+            <input type="edit" placeholder="Для отправки ответа">
+            <input type="submit" value="Отправить">
+        </div>
+    </section>
+
+    <section class="popUpWriteUs">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1951.2618135990913!2d37.65651154034303!3d55.59512816769371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1505039898358" width="900" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+
 </footer>
 </body>
 </html>
