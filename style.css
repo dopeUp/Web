@@ -113,32 +113,109 @@ ul .dropdown-menu li {
 
 .laptops-slider{
     position: relative;
-    width: 80%;
-    height: 300px;
+    width: 70%;
+    height: 400px;
     background: orange;
     padding: 20px;
-    margin: 200px;
-    bottom:100px;
+    margin-left: 14%;
+    margin-top: 100px;
 
+}
+
+.range-list li {
+    display:inline-block;
+    margin-left: 130px;
+    margin-top: 100px;
+    border: 1px solid #000;
 }
 
 
 
+.partners-list li {
+    display:inline-block;
+    margin-left: 75px;
+    margin-top: 100px;
+    border: 1px solid #000;
+}
 
+.guarantee{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.SliderGuarantee{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 10%;
+}
 
+.SliderGuarantee-list li {
+    display:block;
+    margin-top: 20px;
+    border: 1px solid #000;
+}
+.infoGuarantee{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 11%;
+}
+.infoGuarantee-picture{
+    margin-left: 200%;
+    margin-top: -40%;
+}
 
+.ourСompany{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    margin-left: 30%;
+    margin-top: 10%;
+}
 
+.mail{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+.basement{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-left: 0%;
+    margin-top: 600px;
+    background: #464646;
+}
+.contacts{
+    position: absolute;
+}
 
+.map{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 0px;
+}
+.map-list li {
+    display:inline-block;
+}
+.socialNetwork{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: #3c3c3c;
+    margin-top: 400px;
+}
+.socialNetwork-list li {
+    display:inline-block;
+    margin-left: 10px;
+    margin-top: -8%;
 
-
-
-
-
-
-
-
-
-
+}
+.socialNetworkList-move{
+    position: absolute;
+    right: 10%;
+}
 
 
 
