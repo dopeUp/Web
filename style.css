@@ -1,13 +1,17 @@
 body{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
-header {
-    display: block;
-    height: 100px;
-    ;
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
 }
+
+/*HEADER STYLES*/
+
+
+/* END HEADER STYLES*/
 .popUpDashboard {
     background-color: aqua;
     width: 300px;
@@ -29,7 +33,7 @@ a {
 }
 .customMenu{
     position: relative;
-    width: 100%;
+    /*width: 100%;*/
     background-color: #3c3c3c;
     height: 100px;
 }
@@ -111,16 +115,65 @@ ul .dropdown-menu li {
 
 
 
+
+
+
 .laptops-slider{
     position: relative;
     width: 70%;
     height: 400px;
-    background: orange;
+    background: #e9b637;
     padding: 20px;
     margin-left: 14%;
     margin-top: 100px;
 
 }
+.sliderLaptops-list {
+    position: absolute;
+    left: 45%;
+}
+
+.imgLaptops{
+    position: absolute;
+    margin-left: 65%;
+}
+
+.sliderLaptops-list li {
+    display:inline-block;
+    margin-left: 30px;
+    margin-top: 375px;
+    border: 1px solid #000;
+}
+
+.more-info{
+    position: absolute;
+    margin-top:13%;
+    margin-left: 5%;
+}
+.styleInfoFirst{
+    position: absolute;
+    font-family: Century Gothic, sans-serif;
+    font-size: 40px;
+    margin-left: 5%;
+    color: white;
+}
+.styleInfoSecond{
+    position: absolute;
+    margin-top:3%;
+    margin-left: 5%;
+    font-family: Century Gothic, sans-serif;
+    font-size: 40px;
+}
+.info-laptops{
+    position: absolute;
+    margin-top:8%;
+    margin-left: 5%;
+}
+
+
+
+
+
 
 .range-list li {
     display:inline-block;

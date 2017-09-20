@@ -7,40 +7,25 @@
 </head>
 <body>
 <header>
-
     <nav class="mainNavigation">
         <div class="customMenu">
-            <a href="#">
-                <img src="http://placehold.it/150x100" alt="Magno"><!--Заголовок -->
-            </a>
-            <ul class="capMenu">
-                <li>
-                    <a href="#">
-                        <span style="color: Orange;font:30px Arial, Helvetica, sans-serif;">
-                            8 800 555 35 35
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <input type="search" placeholder="Поиск по сайту" class="search">
-                </li>
-                <li>
-                    <a href="#" class="popUp">
-                        <span style="color: white;font:17px Arial, Helvetica, sans-serif;">
-                            Личный кабинет
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span style="color: white;font:17px Arial, Helvetica, sans-serif;">
-                            Корзина
-                        </span>
-                    </a>
-                </li>
-            </ul>
+            <div class="wrapper">
+                <a href="#">
+                    <img src="http://placehold.it/150x100" alt="Magno"><!--Заголовок -->
+                </a>
+                <ul class="capMenu">
+                    <li><a href="#">8 800 555 35 35</a></li>
+                    <li>
+                        <form action="">
+                            <input type="search" placeholder="Поиск по сайту" class="search">
+                        </form>
+                    </li>
+                    <li><a href="#" class="popUp">Личный кабинет</a>
+                    </li>
+                    <li><a href="#">Корзина</a></li>
+                </ul>
+            </div>
         </div>
-
         <div class="mainMenu">
             <ul class="site-menu">
                 <li class="menuList">
@@ -122,25 +107,32 @@
 
 <section class="laptops-slider">
     <div class="sliderLaptops">
-        <label for="btn1"></label>
-        <label for="btn2"></label>
-        <label for="btn3"></label>
+        <ul class="sliderLaptops-list">
+            <li><label for="btn1" class="slider"></label></li>
+            <li><label for="btn2" class="slider"></label></li>
+            <li><label for="btn3" class="slider"></label></li>
+        </ul>
     </div>
     <div class="laptops-slider-slides">
         <input type="radio" id="btn1">
-        <div class="slide">
+        <div class="slideFirst">
 
         </div>
         <input type="radio" id="btn2">
-        <div class="slide">
+        <div class="slideSecond">
 
         </div>
         <input type="radio" id="btn3">
-        <div class="slide">
-            <h2>Ноутбуки для офиса и дома</h2>
-            <p>asdasdsadsadsadsadsadsadasdasdasdasdasdasadasdas</p>
-            <a href="#">Подробнее</a>
-            <img src="http://placehold.it/150x100" alt="Magno">
+        <div class="slideThird">
+            <h2>
+                <span class="styleInfoFirst">Ноутбуки</span>
+                <span class="styleInfoSecond">для офиса и дома</span>
+            </h2>
+            <span class="info-laptops">
+                <p>asdasdsadsadsadsadsadsadasdasdasdasdasdasadasdas</p>
+            </span>
+            <a href="#" class="more-info">Подробнее</a>
+            <img src="http://placehold.it/150x100" alt="Magno" class="imgLaptops">
         </div>
 
      </div>
