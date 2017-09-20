@@ -9,31 +9,19 @@ body{
 }
 
 /*HEADER STYLES*/
-
-
-/* END HEADER STYLES*/
-.popUpDashboard {
-    background-color: aqua;
-    width: 300px;
-    height: 250px;
-    display: none;
-}
-input[type=radio]:checked + .slide {
+.caption{
+    position: absolute;
 }
 .search{
-    position: relative;
     background: #3c3c3c;
-    padding: 7px;
-    width: 15%;
-    font-family: Georgia;
+    width: 150%;
+    padding: 5px;
+    font-family: Century Gothic, Helvetica, sans-serif;
     border: 2px solid white;
 }
-a {
-    text-decoration: none;
-}
+
 .customMenu{
     position: relative;
-    /*width: 100%;*/
     background-color: #3c3c3c;
     height: 100px;
 }
@@ -42,8 +30,8 @@ ul.capMenu {
     padding: 0px;
 }
 ul.capMenu li {
-    display: inline;
-    margin: 5%;
+    display:  inline-block;
+    margin-left: 10%;
     padding: 0;
 }
 .capMenu{
@@ -51,13 +39,9 @@ ul.capMenu li {
     bottom: 70px;
     left:20%;
 }
-
-
-
-
-
-
-
+.popUp{
+    margin-left: 200px;
+}
 
 ul{
     margin: 0;
@@ -79,7 +63,6 @@ ul.site-menu li {
     float:left;
     padding:5px;
 }
-
 .site-menu a{
     color: black;
     treansition: 1.0s all;
@@ -103,21 +86,24 @@ ul .dropdown-menu li {
     position: absolute;
     width: 100%;
     top: 100%;
-
     opacity: 0;
 }
 .menuList :hover .dropdown-menu{
     opacity: 1;
 }
-
-
-
-
-
-
-
-
-
+/* END HEADER STYLES*/
+.fontCustomMenu{
+    font:20px Century Gothic, Helvetica, sans-serif;
+    color: #e9b637;
+}
+.FontMainMenu{
+    font:20px Century Gothic, Helvetica, sans-serif;
+}
+.fontArea{
+    font:17px Century Gothic, Helvetica, sans-serif;
+    color: white;
+}
+/* LAPTOPS STYLES*/
 .laptops-slider{
     position: relative;
     width: 70%;
@@ -125,30 +111,29 @@ ul .dropdown-menu li {
     background: #e9b637;
     padding: 20px;
     margin-left: 14%;
-    margin-top: 100px;
-
 }
 .sliderLaptops-list {
     position: absolute;
     left: 45%;
 }
-
 .imgLaptops{
     position: absolute;
     margin-left: 65%;
 }
-
 .sliderLaptops-list li {
     display:inline-block;
     margin-left: 30px;
     margin-top: 375px;
     border: 1px solid #000;
 }
-
 .more-info{
     position: absolute;
-    margin-top:13%;
+    margin-top:17%;
     margin-left: 5%;
+    border: 3px solid white;
+    border-radius: 7px;
+    width: 18%;
+    height: 10%;
 }
 .styleInfoFirst{
     position: absolute;
@@ -166,24 +151,53 @@ ul .dropdown-menu li {
 }
 .info-laptops{
     position: absolute;
-    margin-top:8%;
+    margin-top:9%;
     margin-left: 5%;
+    color: white;
 }
+/* END LAPTOPS STYLES*/
 
 
 
 
-
-
+/* RANGE STYLES*/
 .range-list li {
+    position: relative;
     display:inline-block;
     margin-left: 130px;
     margin-top: 100px;
-    border: 1px solid #000;
+}
+.within{
+    height: 100px;
+    width: 100px;
+    background: red;
 }
 
-
-
+/*.circle{*/
+    /*border: 3px solid orange;*/
+    /*width: 160px;*/
+    /*height: 160px;*/
+    /*border-radius: 50%;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+/*}*/
+.computers h3{
+    padding-top: 165px;
+}
+.computers::before{
+    content: "";
+    position: absolute;
+    top:0;
+    width: 160px;
+    height: 160px;
+    background-image: url(Picture/1.png);
+    border-radius: 50%;
+    border: 3px solid orange;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+/* END RANGE STYLES*/
 .partners-list li {
     display:inline-block;
     margin-left: 75px;
@@ -286,3 +300,14 @@ ul .dropdown-menu li {
 
 
 
+.popUpDashboard {
+    background-color: aqua;
+    width: 300px;
+    height: 250px;
+    display: none;
+}
+input[type=radio]:checked + .slide {
+}
+a {
+    text-decoration: none;
+}
