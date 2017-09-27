@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Magno</title>
 </head>
 <body>
@@ -13,14 +14,15 @@
                 <a href="#">
                     <img src="http://placehold.it/150x100" alt="Magno" class=""><!--Заголовок -->
                 </a>
-                <a href="#"><span class="fontCustomMenu">8 800 555 35 35</span></a>
+                <a href="#" class="fontCustomMenu">8 800 555 35 35</a>
                         <form action="">
                             <input type="search" placeholder="Поиск по сайту" class="search">
                         </form>
                 <ul class="capMenu">
-                    <li><a href="#" class="popUp fontArea">Личный кабинет</a>
+                    <li><a href="#" class="popUp fontArea"><i class="fa fa-user"></i>Личный кабинет</a>
                     </li>
-                    <li><a href="#" class="fontArea">Корзина</a></li>
+                    <li><a href="#" class="fontArea"><i class="fa fa-shopping-cart"></i>Корзина</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -28,76 +30,36 @@
             <div class="wrapper">
                 <ul class="site-menu">
                     <li class="menuList">
-                        <a href="#">
-                            <span class="FontMainMenu">
-                                Все категории
-                            </span>
-                        </a>
+                        <a href="#"class="FontMainMenu">Все категории</a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="#">
-                                    <span class="FontMainMenu">
-                                        Роутеры
-                                    </span>
-                                </a>
+                                <a href="#" class="FontMainMenu">Роутеры</a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <span class="FontMainMenu">
-                                        Игровые симуляторы
-                                    </span>
-                                </a>
+                                <a href="#" class="FontMainMenu">Игровые симуляторы</a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <span class="FontMainMenu">
-                                        Комплектующие
-                                    </span>
-                                </a>
+                                <a href="#" class="FontMainMenu">Комплектующие</a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <span class="FontMainMenu">
-                                        Периферия
-                                    </span>
-                                </a>
+                                <a href="#" class="FontMainMenu">Периферия</a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <span class="FontMainMenu">
-                                        Настольные лампы
-                                    </span>
-                                </a>
+                                <a href="#" class="FontMainMenu">Настольные лампы</a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <span class="FontMainMenu">
-                                        Моноблоки и ноутбуки
-                                    </span>
-                                </a>
+                                <a href="#" class="FontMainMenu">Моноблоки и ноутбуки</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">
-                            <span class="FontMainMenu">
-                                Доставка
-                            </span>
-                        </a>
+                        <a href="#" class="FontMainMenu">Доставка</a>
                     </li>
                     <li>
-                        <a href="#">
-                            <span class="FontMainMenu">
-                                Гарантия
-                            </span>
-                        </a>
+                        <a href="#" class="FontMainMenu">Гарантия</a>
                     </li>
                     <li>
-                        <a href="#">
-                            <span class="FontMainMenu">
-                                Контакты
-                            </span>
-                        </a>
+                        <a href="#" class="FontMainMenu">Контакты</a>
                     </li>
                 </ul>
             </div>
@@ -105,222 +67,215 @@
     </nav>
 </header>
 
-<section class="laptops-slider">
-    <div class="sliderLaptops">
-        <ul class="sliderLaptops-list">
-            <li><label for="btn1" class="slider"></label></li>
-            <li><label for="btn2" class="slider"></label></li>
-            <li><label for="btn3" class="slider"></label></li>
-        </ul>
-    </div>
-    <div class="laptops-slider-slides">
-        <input type="radio" id="btn1">
-        <div class="slideFirst">
+<div class="wrapper">
+    <section class="laptops-slider">
+        <div class="sliderLaptops">
+                <ul class="sliderLaptops-list">
+                    <li><label for="btn1" class="slider"></label></li>
+                    <li><label for="btn2" class="slider"></label></li>
+                    <li><label for="btn3" class="slider"></label></li>
+                </ul>
+            </div>
+            <div class="laptops-slider-slides">
+                <input type="radio" id="btn1">
+                <div class="slideFirst">
 
-        </div>
-        <input type="radio" id="btn2">
-        <div class="slideSecond">
+                </div>
+                <input type="radio" id="btn2">
+                <div class="slideSecond">
 
+                </div>
+                <input type="radio" id="btn3">
+                <div class="slideThird">
+                    <h2>
+                        <span class="styleInfoFirst">Ноутбуки</span>
+                        <span class="styleInfoSecond">для офиса и дома</span>
+                    </h2>
+                    <span class="info-laptops">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+                    </span>
+                    <a href="#" class="more-info">Подробнее</a>
+                    <img src="http://placehold.it/150x100" alt="Magno" class="imgLaptops">
+                </div>
         </div>
-        <input type="radio" id="btn3">
-        <div class="slideThird">
-            <h2>
-                <span class="styleInfoFirst">Ноутбуки</span>
-                <span class="styleInfoSecond">для офиса и дома</span>
-            </h2>
-            <span class="info-laptops">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
-            </span>
-            <a href="#" class="more-info">Подробнее</a>
-            <img src="http://placehold.it/150x100" alt="Magno" class="imgLaptops">
-        </div>
-    </div>
-</section>
+    </section>
+</div>
 
-<!--<section class="range">-->
-    <!--<div class="wrapper">-->
+<section class="range">
     <ul class="range-list">
         <li>
             <a href="#" class="">
                 <div class="circle">
-                <img src="Picture/1.png">
+                <img src="Picture/computer.png">
                 </div>
                 <h3>Моноблоки и ноутбуки</h3>
             </a>
         </li>
         <li>
-            <a href="#">
-                <img src="http://placehold.it/150x100" alt="Перефирия">
+            <a href="#" class="">
+                <div class="circle">
+                    <img src="Picture/mouse.png">
+                </div>
                 <h3>Перефирия</h3>
             </a>
         </li>
         <li>
-            <a href="#">
-                <img src="http://placehold.it/150x100" alt="Комплектующие">
+            <a href="#" class="">
+                <div class="circle">
+                    <img src="Picture/chip.png">
+                </div>
                 <h3>Комплектующие</h3>
             </a>
         </li>
         <li>
-            <a href="#">
-                <img src="http://placehold.it/150x100" alt="Роутеры">
+            <a href="#" class="">
+                <div class="circle">
+                    <img src="Picture/modem.png">
+                </div>
                 <h3>Роутеры</h3>
             </a>
         </li>
         <li>
-            <a href="#">
-                <img src="http://placehold.it/150x100" alt="Настольные лампы">
+            <a href="#" class="">
+                <div class="circle">
+                    <img src="Picture/lamp.png">
+                </div>
                 <h3>Настольные лампы</h3>
             </a>
         </li>
         <li>
-            <a href="#">
-                <img src="http://placehold.it/150x100" alt="Игровые симуляторы">
+            <a href="#" class="">
+                <div class="circle">
+                    <img src="Picture/gamepad.png">
+                </div>
                 <h3>Игровые симуляторы</h3>
             </a>
         </li>
     </ul>
-    <!--</div>-->
-<!--</section>-->
-
-<section class="guarantee">
-    <div class="SliderGuarantee">
-        <ul class="SliderGuarantee-list">
-            <li>
-                <input type="checkbox" id="check1">
-                <label for="check1">
-                    <a href="#">Доставка</a>
-                </label>
-            </li>
-            <li>
-                <input type="checkbox" id="check2">
-                <label for="check2">
-                    <a href="#">Гарантия</a>
-                </label>
-            </li>
-            <li>
-                <input type="checkbox" id="check3">
-                <label for="check3">
-                    <a href="#">Кредит</a>
-                </label>
-            </li>
-        </ul>
-    </div>
-    <div class="infoGuarantee">
-        <h2>Гарантия</h2>
-        <p>asdasdasda;sldasdasd\'aldasdasdasdasdasdasdasdasd</p>
-        <img src="http://placehold.it/150x100" alt="Гарантия" class="infoGuarantee-picture">
-    </div>
 </section>
 
-<section class="aboutСompanie">
-    <div class="partners">
-        <ul class="partners-list">
-            <li>
-                <a href="#">
-                    <img src="http://placehold.it/150x100" alt="1 партнер">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="http://placehold.it/150x100" alt="2 партнер">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="http://placehold.it/150x100" alt="3 партнер">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="http://placehold.it/150x100" alt="4 партнер">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="http://placehold.it/150x100" alt="5 партнер">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="http://placehold.it/150x100" alt="6 партнер">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="http://placehold.it/150x100" alt="7 партнер">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="http://placehold.it/150x100" alt="8 партнер">
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="ourСompany">
-        <h2>Наша компания</h2>
-        <p>asdasdasdasdasdasdasdasdasdasdasdasdasdasdsaddddssaqs</p>
-        <ul>
-            <li>asdasdasdasdgdfgdfgdfhdfh</li>
-            <li>dfsdfasdasdasdasdasdasdasd</li>
-        </ul>
-        <a href="#">Напишите нам</a>
-    </div>
-    <div class="mail">
-        <h2>Почтовая рассылка</h2>
-        <p>dsadasdasdasdasfgfdhdfgdfsdfa</p>
-        <input type="email" placeholder="Ваш E-mail">
-        <p>asdasdasdasddgdgdfdgwerqweqweqw</p>
-        <a href="#">Подписаться</a>
-    </div>
-</section>
-
-<footer class="basement">
-    <div class="contacts">
-        <a href="#">
-            <img src="http://placehold.it/150x100" alt="Magno"><!--Заголовок -->
-        </a>
-        <p>g Moscow asdasdasdas</p>
-        <p>8 800 555 35 35</p>
-        <a href="#">Личный кабинет</a>
-        <a href="#">Корзина</a>
-    </div>
-    <div class="map">
-        <ul class="map-list">
-            <li><a href="#">Доставка</a></li>
-            <li><a href="#">Гарантия</a></li>
-            <li><a href="#">Контакты</a></li>
-        </ul>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1951.2618135990913!2d37.65651154034303!3d55.59512816769371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1505039898358" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    <div class="socialNetwork">
-        <p>asdasdasdasdasdasdasdas</p>
-        <div class="socialNetworkList-move">
-            <ul class="socialNetwork-list">
+<div class="wrapper">
+    <section class="guarantee">
+        <div class="SliderGuarantee">
+            <ul class="SliderGuarantee-list">
                 <li>
-                    <a href="#">
-                        <img src="http://placehold.it/150x100" alt="VK">
-                    </a>
+                    <input type="checkbox" id="check1">
+                    <label for="check1">
+                        <a href="#">Доставка</a>
+                    </label>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="http://placehold.it/150x100" alt="Facebook">
-                    </a>
+                    <input type="checkbox" id="check2">
+                    <label for="check2">
+                        <a href="#">Гарантия</a>
+                    </label>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="http://placehold.it/150x100" alt="Twitter">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://placehold.it/150x100" alt="Instagram">
-                    </a>
+                    <input type="checkbox" id="check3">
+                    <label for="check3">
+                        <a href="#">Кредит</a>
+                    </label>
                 </li>
             </ul>
         </div>
-    </div>
+        <div class="infoGuarantee">
+            <h2>Гарантия</h2>
+            <p>asdasdasda;sldasdasd\'aldasdasdasdasdasdasdasdasd</p>
+        </div>
+        <img src="Picture/security.png" alt="Гарантия" class="infoGuarantee-picture">
+    </section>
+</div>
 
+<div class="wrapper">
+    <div class="partners">
+        <ul class="partners-list">
+            <li>
+                <a href="#"><img src="Picture/logos/bticino.png" alt="1 партнер"></a>
+            </li>
+            <li>
+                <a href="#"><img src="Picture/logos/cct.png" alt="2 партнер"></a>
+            </li>
+            <li>
+                <a href="#"><img src="Picture/logos/dekraft.png" alt="3 партнер"></a>
+            </li>
+            <li>
+                <a href="#"><img src="Picture/logos/dkc.png" alt="4 партнер"></a>
+            </li>
+            <li>
+                <a href="#"><img src="Picture/logos/gira.png" alt="5 партнер"></a>
+            </li>
+            <li>
+                <a href="#"><img src="Picture/logos/jung.png" alt="6 партнер"></a>
+            </li>
+            <li>
+                <a href="#"><img src="Picture/logos/legrand.png" alt="7 партнер"></a>
+            </li>
+            <li>
+                <a href="#"><img src="Picture/logos/schneider.png" alt="8 партнер"></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="wrapper">
+    <section class="aboutСompanie">
+        <div class="ourСompany">
+            <h2>Наша компания</h2>
+            <p>asdasdasdasdasdasdasdasdasdasdasdasdasdasdsaddddssaqs</p>
+            <ul>
+                <li>asdasdasdasdgdfgdfgdfhdfh</li>
+                <li>dfsdfasdasdasdasdasdasdasd</li>
+            </ul>
+            <a href="#">Напишите нам</a>
+        </div>
+        <div class="mail">
+            <h2>Почтовая рассылка</h2>
+            <p>dsadasdasdasdasfgfdhdfgdfsdfa</p>
+            <input type="email" placeholder="Ваш E-mail">
+            <p>asdasdasdasddgdgdfdgwerqweqweqw</p>
+            <a href="#">Подписаться</a>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <div class="information">
+        <div class="wrapper">
+            <div class="location">
+                <a><img src="http://placehold.it/150x100" alt="Magno"></a>
+                <p>Г.МОСКВА, УЛ.Касимовская, 17<br>
+                    К 222
+                </p>
+                <a href="#" class="number">8-800-5000-616</a>
+                <ul class="account">
+                    <li><i class="fa fa-user"></i><a href="#">Личный кабинет</a></li>
+                    <li><i class="fa fa-shopping-cart"><a href="#">Корзина</a></i></li>
+                </ul>
+            </div>
+            <div class="map">
+                <ul class="main-menu">
+                    <li> <a href="#">Доставка</a></li>
+                    <li> <a href="#">Гарантия</a></li>
+                    <li> <a href="#">Контакты</a></li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1951.2618135990913!2d37.65651154034303!3d55.59512816769371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1505039898358" width="555" height="250" frameborder="0" style="border:0" allowfullscreen ></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="root">
+        <div class="wrapper">
+            <div>
+                <p> <a href="#">Все права защищены 2017</a></p>
+            </div>
+            <div class="social">
+                <i class="fa fa-vk"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+</footer>
    <!-- <section class="popUpDashboard">
         <h2>Личный кабинет</h2>
         <p>Введите свой логин и пароль</p>
@@ -348,6 +303,5 @@
     <section class="popUpWriteUs">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1951.2618135990913!2d37.65651154034303!3d55.59512816769371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1505039898358" width="900" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>-->
-</footer>
 </body>
 </html>

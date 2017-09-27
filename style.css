@@ -7,6 +7,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+i {
+    margin-right: 5px;
+}
 
 .wrapper {
     width: 1200px;
@@ -46,6 +49,7 @@ ul {
     padding: 25px 0;
     width: 100%;
     background: lightgrey;
+
 }
 .site-menu {
     width: 100%;
@@ -58,8 +62,9 @@ ul {
 .site-menu li:hover > ul {
     display: block;
     position: absolute;
-    left: 10%;
-    background: red;
+    left: 0%;
+    background: lightgrey;
+    width: 100%;
 }
 /* END HEADER STYLES*/
 .fontCustomMenu{
@@ -68,6 +73,7 @@ ul {
 }
 .FontMainMenu{
     font:20px Century Gothic, Helvetica, sans-serif;
+    color: black;
 }
 .fontArea{
     font:17px Century Gothic, Helvetica, sans-serif;
@@ -75,59 +81,26 @@ ul {
 }
 /* LAPTOPS STYLES*/
 .laptops-slider{
-    position: relative;
-    width: 70%;
-    height: 400px;
     background: #e9b637;
-    padding: 20px;
-    margin-left: 14%;
-}
-.sliderLaptops-list {
-    position: absolute;
-    left: 45%;
-}
-.imgLaptops{
-    position: absolute;
-    margin-left: 65%;
-}
-.sliderLaptops-list li {
-    display:inline-block;
-    margin-left: 30px;
-    margin-top: 375px;
-    border: 1px solid #000;
-}
-.more-info{
-    position: absolute;
-    margin-top:17%;
-    margin-left: 5%;
-    border: 3px solid white;
-    border-radius: 7px;
-    width: 18%;
-    height: 10%;
+    width: 100%;
+    height: 400px;
+    margin: 0px auto;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 .styleInfoFirst{
-    position: absolute;
     font-family: Century Gothic, sans-serif;
     font-size: 40px;
-    margin-left: 5%;
     color: white;
 }
 .styleInfoSecond{
-    position: absolute;
-    margin-top:3%;
-    margin-left: 5%;
+
     font-family: Century Gothic, sans-serif;
     font-size: 40px;
 }
 .info-laptops{
-    position: absolute;
-    margin-top:9%;
-    margin-left: 5%;
     color: white;
 }
 /* END LAPTOPS STYLES*/
-
-
 
 
 /* RANGE STYLES*/
@@ -148,10 +121,8 @@ ul {
 }
 
 .circle{
-    border: 3px solid orange;
     width: 160px;
     height: 160px;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,105 +143,88 @@ ul {
     /*background-position: 50% 50%;*/
 /*}*/
 /* END RANGE STYLES*/
-.partners-list li {
-    display:inline-block;
-    margin-left: 75px;
-    margin-top: 100px;
-    border: 1px solid #000;
-}
 
+
+/*GUARANTEE STYLES*/
 .guarantee{
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
-    height: 400px;
-}
-.SliderGuarantee{
-    position: absolute;
-    margin-left: 15%;
-    margin-top: 10%;
-}
+    height: 160px;
 
+}
 .SliderGuarantee-list li {
-    display:block;
-    margin-top: 20px;
     border: 1px solid #000;
+    width: 175px;
+    height: 35px;
+    margin-bottom: 25px;
+    background: white;
 }
-.infoGuarantee{
-    position: absolute;
-    margin-left: 40%;
-    margin-top: 11%;
-}
-.infoGuarantee-picture{
-    margin-left: 200%;
-    margin-top: -40%;
-}
+/*END GUARANTEE STYLES*/
 
+/*PARTNERS STYLES*/
+.partners-list{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* END PARTNERS STYLES*/
+
+/*ABOUT COMPANY STYLES*/
+.aboutСompanie{
+    display: flex;
+    width:100%;
+    height: 500px;
+    justify-content: space-between;
+}
 .ourСompany{
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    margin-left: 30%;
-    margin-top: 10%;
+    background: lightgrey;
+    width: 65%;
 }
-
 .mail{
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    margin-left: 60%;
-    margin-top: 10%;
-}
-.basement{
-    position: relative;
-    width: 100%;
-    height: 400px;
-    margin-left: 0%;
-    margin-top: 600px;
-    background: #464646;
-}
-.contacts{
-    position: absolute;
-}
-
-.map{
-    position: absolute;
-    margin-left: 65%;
-    margin-top: 0px;
-}
-.map-list li {
-    display:inline-block;
-}
-.socialNetwork{
-    position: absolute;
-    width: 100%;
-    height: 100px;
     background: #3c3c3c;
-    margin-top: 400px;
+    width: 35%;
 }
-.socialNetwork-list li {
-    display:inline-block;
-    margin-left: 10px;
-    margin-top: -8%;
+/* END ABOUT COMPANY STYLES*/
 
+/*FOOTER STYLES*/
+.information {
+    background: #464646;
+    height: 400px;
+    color: white;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
 }
-.socialNetworkList-move{
-    position: absolute;
-    right: 10%;
+.location {
+    width: 450px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.location ul {
+    margin-top: 40px;
+}
+.root {
+    background: #3c3c3c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.number {
+    font: bold 24px "Century Gothic", sans-serif;
+}
+.main-menu{
+    width: 475px;
+    font: bold 18px "Century Gothic", sans-serif;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+/* END FOOTER STYLES*/
 
 
 
