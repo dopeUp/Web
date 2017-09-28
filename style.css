@@ -18,6 +18,13 @@ i {
     justify-content: space-between;
     align-items: center;
 }
+.line {
+    margin: 25px 0px;
+    padding: 30px;
+    border-top: 1px solid rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: center;
+}
 
 /*HEADER STYLES*/
 .caption{
@@ -80,6 +87,11 @@ i {
     color: white;
 }
 /* LAPTOPS STYLES*/
+.imgLaptops{
+    position: absolute;
+    left: 1000px;
+    bottom: 450px;
+}
 .laptops-slider{
     background: #e9b637;
     width: 100%;
@@ -87,18 +99,25 @@ i {
     margin: 0px auto;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
+.laptops-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 150px;
+}
 .styleInfoFirst{
     font-family: Century Gothic, sans-serif;
     font-size: 40px;
     color: white;
 }
 .styleInfoSecond{
-
     font-family: Century Gothic, sans-serif;
     font-size: 40px;
+
 }
 .info-laptops{
     color: white;
+    padding: 20px 0;
 }
 /* END LAPTOPS STYLES*/
 
@@ -112,14 +131,7 @@ i {
 }
 .range-list li {
     width: 150px;
-    margin: 10px;
 }
-.within{
-    height: 100px;
-    width: 100px;
-    background: red;
-}
-
 .circle{
     width: 160px;
     height: 160px;
@@ -127,8 +139,8 @@ i {
     justify-content: center;
     align-items: center;
 }
-.computers h3{
-    padding-top: 165px;
+.range-list li a h3{
+    margin: 10px auto;
 }
 /*.computers::before{*/
     /*content: "";*/
@@ -155,18 +167,28 @@ i {
 
 }
 .SliderGuarantee-list li {
-    border: 1px solid #000;
     width: 175px;
     height: 35px;
     margin-bottom: 25px;
     background: white;
+}
+.btn{
+    border: 1px solid #000;
+    background: white;
+    text-align: center;
+    transition: 0.5s;
+}
+.btn:hover {
+
+    background: black;
+    color: #e9b637;
 }
 /*END GUARANTEE STYLES*/
 
 /*PARTNERS STYLES*/
 .partners-list{
     width: 1200px;
-    height: 300px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
