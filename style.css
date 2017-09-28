@@ -164,24 +164,21 @@ i {
     justify-content: space-between;
     width: 100%;
     height: 160px;
-
 }
 .SliderGuarantee-list li {
+    border: 1px solid #000;
     width: 175px;
     height: 35px;
     margin-bottom: 25px;
     background: white;
-}
-.btn{
-    border: 1px solid #000;
-    background: white;
-    text-align: center;
     transition: 0.5s;
 }
-.btn:hover {
-
+.SliderGuarantee-list li:hover {
     background: black;
     color: #e9b637;
+}
+.SliderGuarantee-list li a:hover {
+    color: orange;
 }
 /*END GUARANTEE STYLES*/
 
