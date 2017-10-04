@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: Century Gothic, Helvetica, sans-serif;
 }
 ul {
     list-style: none;
@@ -88,30 +89,35 @@ i {
 }
 /* LAPTOPS STYLES*/
 .imgLaptops{
-    position: absolute;
-    left: 1000px;
-    bottom: 450px;
+    /*position: absolute;*/
+    /*left: 1000px;*/
+    /*bottom: 450px;*/
 }
 .laptops-slider{
     background: #e9b637;
     width: 100%;
-    height: 400px;
+    height: 350px;
     margin: 0px auto;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding:50px 100px;
+}
+.sliderLaptops {
+    margin: -100px 20px 0 0;
 }
 .laptops-caption{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 150px;
 }
 .styleInfoFirst{
-    font-family: Century Gothic, sans-serif;
     font-size: 40px;
     color: white;
 }
 .styleInfoSecond{
-    font-family: Century Gothic, sans-serif;
     font-size: 40px;
 
 }
@@ -131,6 +137,7 @@ i {
 }
 .range-list li {
     width: 150px;
+    text-align: center;
 }
 .circle{
     width: 160px;
@@ -168,10 +175,17 @@ i {
 .SliderGuarantee-list li {
     border: 1px solid #000;
     width: 175px;
-    height: 35px;
+    line-height: 35px;
     margin-bottom: 25px;
     background: white;
+    text-align: center;
     transition: 0.5s;
+}
+input[type="checkbox"] {
+    display: none;
+}
+label:hover {
+    cursor: pointer;
 }
 .SliderGuarantee-list li:hover {
     background: black;
@@ -204,11 +218,28 @@ i {
 .ourСompany{
     background: lightgrey;
     width: 65%;
+    padding: 0 50px;
+}
+.ourCompany li::before {
+    content: "*";
+    color: #e9b637;
+}
+.mail > input {
+    height: 50px;
+    background: black;
+    color: white;
+    outline: none;
+    padding-left: 25px;
 }
 .mail{
     background: #3c3c3c;
     width: 35%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
 }
+
 /* END ABOUT COMPANY STYLES*/
 
 /*FOOTER STYLES*/
@@ -257,4 +288,19 @@ input[type=radio]:checked + .slide {
 }
 a {
     text-decoration: none;
+}
+.btn{
+    border: 1px solid #e9b637;
+    line-height: 50px;
+    margin-bottom: 25px;
+    background: #e9b637;
+    text-align: center;
+    transition: 0.5s;
+}
+.btn:hover {
+    background: #fff;
+    color: #e9b637;
+}
+.btn a:hover {
+    color: orange;
 }
