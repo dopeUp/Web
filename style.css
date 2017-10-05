@@ -28,17 +28,20 @@ i {
 }
 
 /*HEADER STYLES*/
-.caption{
-    position: absolute;
-}
 .search{
     background: #3c3c3c;
     width: 150%;
     padding: 5px;
     font-family: Century Gothic, Helvetica, sans-serif;
     border: 2px solid white;
+    margin-top: 30px;
 }
-
+.fontCustomMenu{
+    margin-top: 30px;
+}
+.magno{
+    margin-top: 30px;
+}
 .customMenu{
     position: relative;
     background-color: #3c3c3c;
@@ -46,12 +49,14 @@ i {
 }
 .capMenu{
     display: flex;
+    margin-top: 30px;
 }
 .capMenu li:last-child {
     margin-left: 20px;
 }
 .popUp{
     margin-left: 200px;
+    margin-top: 30px;
 }
 .mainMenu {
     padding: 25px 0;
@@ -88,11 +93,7 @@ i {
     color: white;
 }
 /* LAPTOPS STYLES*/
-.imgLaptops{
-    /*position: absolute;*/
-    /*left: 1000px;*/
-    /*bottom: 450px;*/
-}
+
 .laptops-slider{
     background: #e9b637;
     width: 100%;
@@ -119,12 +120,26 @@ i {
 }
 .styleInfoSecond{
     font-size: 40px;
-
 }
 .info-laptops{
     color: white;
     padding: 20px 0;
 }
+.laptops-slider-slides{display: none;}
+.more-info{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+.more-info:hover{
+    background-color: white;
+    color: black
+}
+
 /* END LAPTOPS STYLES*/
 
 
@@ -145,6 +160,9 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.circle:hover{
+    background: url(Picture/1.png)no-repeat;
 }
 .range-list li a h3{
     margin: 10px auto;
@@ -204,7 +222,9 @@ label:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
+}
+.partners-list li:hover{
+    opacity: 0.5;
 }
 /* END PARTNERS STYLES*/
 
@@ -239,7 +259,21 @@ label:hover {
     flex-direction: column;
     padding: 0 50px;
 }
-
+.btn{
+    border: 1px solid #e9b637;
+    line-height: 50px;
+    margin-bottom: 25px;
+    background: #e9b637;
+    text-align: center;
+    transition: 0.5s;
+}
+.btn:hover {
+    background: #fff;
+    color: #e9b637;
+}
+.btn a:hover {
+    color: orange;
+}
 /* END ABOUT COMPANY STYLES*/
 
 /*FOOTER STYLES*/
@@ -288,19 +322,10 @@ input[type=radio]:checked + .slide {
 }
 a {
     text-decoration: none;
+    color: black;
 }
-.btn{
-    border: 1px solid #e9b637;
-    line-height: 50px;
-    margin-bottom: 25px;
-    background: #e9b637;
-    text-align: center;
-    transition: 0.5s;
-}
-.btn:hover {
-    background: #fff;
-    color: #e9b637;
-}
-.btn a:hover {
-    color: orange;
-}
+footer a{color: white;}
+.laptops-slider a{color: white;}
+
+
+
