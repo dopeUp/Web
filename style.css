@@ -139,6 +139,9 @@ i {
     background-color: white;
     color: black
 }
+.more-info:active{
+    background-color: dimgray;
+}
 
 /* END LAPTOPS STYLES*/
 
@@ -212,6 +215,9 @@ label:hover {
 .SliderGuarantee-list li a:hover {
     color: orange;
 }
+.SliderGuarantee-list li:active{
+    opacity: 0.3;
+}
 /*END GUARANTEE STYLES*/
 
 /*PARTNERS STYLES*/
@@ -273,6 +279,21 @@ label:hover {
 }
 .btn a:hover {
     color: orange;
+}
+.write{
+    border: 2px solid orange;
+    width: 150px;
+    height: 3px;
+    background: orange;
+    position: relative;
+    top: 15px;
+    right: 3%;
+    z-index: 0;
+}
+.write-us{
+    position: relative; z-index: 1;}
+.font-mail{
+    color: gray;
 }
 /* END ABOUT COMPANY STYLES*/
 

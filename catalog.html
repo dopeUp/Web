@@ -2,25 +2,66 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Моноблоки и ноутбуки</title>
 </head>
 <body>
     <header>
         <nav class="mainNavigation">
             <div class="customMenu">
-                <a href="#">
-                    <img src="http://placehold.it/150x100" alt="Magno"><!--Заголовок -->
-                </a>
-                <a href="#">8 800 555 35 35</a>
-                <input type="search" placeholder="Поиск по сайту">
-                <a href="#">Иван Иванов</a>
-                <a href="#">Корзина</a>
+                <div class="wrapper">
+
+                    <a href="index.html">
+                        <img src="Picture/MAGNO.png" alt="Magno" class="magno"><!--Заголовок-->
+                    </a>
+                    <a href="#" class="fontCustomMenu">8 800 555 35 35</a>
+                    <form action="">
+                        <input type="search" placeholder="Поиск по сайту" class="search">
+                    </form>
+                    <ul class="capMenu">
+                        <li><a href="#" class="popUp fontArea"><i class="fa fa-user"></i>Личный кабинет</a>
+                        </li>
+                        <li><a href="#" class="fontArea"><i class="fa fa-shopping-cart"></i>Корзина</a>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
             <div class="mainMenu">
-                <a href="#">Все категории</a>
-                <a href="#">Доставка</a>
-                <a href="#">Гарантия</a>
-                <a href="#">Контакты</a>
+                <div class="wrapper">
+                    <ul class="site-menu">
+                        <li class="menuList">
+                            <a href="#"class="FontMainMenu">Все категории</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#" class="FontMainMenu">Роутеры</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="FontMainMenu">Игровые симуляторы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="FontMainMenu">Комплектующие</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="FontMainMenu">Периферия</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="FontMainMenu">Настольные лампы</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="FontMainMenu">Доставка</a>
+                        </li>
+                        <li>
+                            <a href="#" class="FontMainMenu">Гарантия</a>
+                        </li>
+                        <li>
+                            <a href="#" class="FontMainMenu">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -143,46 +184,42 @@
         </div>
     </section>
 
-    <footer class="basement">
-        <div class="contacts">
-            <a href="#">
-                <img src="http://placehold.it/150x100" alt="Magno"><!--Заголовок -->
-            </a>
-            <p>g Moscow asdasdasdas</p>
-            <p>8 800 555 35 35</p>
-            <a href="#">Личный кабинет</a>
-            <a href="#">Корзина</a>
+    <footer>
+        <div class="information">
+            <div class="wrapper">
+                <div class="location">
+                    <a href="index.html"><img src="Picture/MAGNO.png" alt="Magno"></a><!--Заголовок-->
+                    <p>Г.МОСКВА, УЛ.Касимовская, 17<br>
+                        К 222
+                    </p>
+                    <a href="#" class="number">8-800-5000-616</a>
+                    <ul class="account">
+                        <li><i class="fa fa-user"></i><a href="#">Личный кабинет</a></li>
+                        <li><i class="fa fa-shopping-cart"><a href="#">Корзина</a></i></li>
+                    </ul>
+                </div>
+                <div class="map">
+                    <ul class="main-menu">
+                        <li> <a href="#">Доставка</a></li>
+                        <li> <a href="#">Гарантия</a></li>
+                        <li> <a href="#">Контакты</a></li>
+                    </ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1951.2618135990913!2d37.65651154034303!3d55.59512816769371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1505039898358" width="555" height="250" frameborder="0" style="border:0" allowfullscreen ></iframe>
+                </div>
+            </div>
         </div>
-        <div class="map">
-            <a href="#">Доставка</a>
-            <a href="#">Гарантия</a>
-            <a href="#">Доставка</a>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1951.2618135990913!2d37.65651154034303!3d55.59512816769371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1505039898358" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <div class="socialNetwork">
-            <p>asdasdasdasdasdasdaыфвфывфывфвdas</p>
-            <ul>
-                <li>
-                    <a href="#">
-                        <img src="http://placehold.it/150x100" alt="Vk">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://placehold.it/150x100" alt="Facebook">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://placehold.it/150x100" alt="Twitter">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="http://placehold.it/150x100" alt="Instagram">
-                    </a>
-                </li>
-            </ul>
+        <div class="root">
+            <div class="wrapper">
+                <div>
+                    <p> <a href="#">Все права защищены 2017</a></p>
+                </div>
+                <div class="social">
+                    <a href="#" class="fa fa-vk"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a  class="fa fa-instagram"></a>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
