@@ -350,3 +350,59 @@ footer a{color: white;}
 
 
 
+
+
+/*CATALOG*/
+
+/*WAY*/
+.way-list{
+    height: 40px;
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.way-list li{
+    width: 70px;
+    text-align: center;
+}
+/*END WAY*/
+
+/*categoryHeading*/
+.categoryHeading{
+    height: 0px;
+    margin-top: -75px;
+}
+/*END categoryHeading*/
+
+/*CATEGORYMENU*/
+.backLine{
+    background: lightgrey;
+    height: 100px;
+    width:100%;
+}
+.sorting-menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.sorting-menu li{
+    height: 100px;
+    width: 150px;
+    text-align: center;
+
+}
+.sorting-menu li:first-child{
+    padding-right: 150px;
+    margin-left: 40px;
+}
+.sorting-menu-fontFirst{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.sorting-menu-fontSecond{
+    font-size: 25px;
+    font-weight: bolder;
+}
+/*END CATEGORYMENU*/
