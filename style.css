@@ -358,13 +358,18 @@ footer a{color: white;}
 .way-list{
     height: 40px;
     width: 100%;
-    margin: 10px auto;
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
 }
 .way-list li{
-    width: 70px;
     text-align: center;
+}
+.lineSecond {
+    padding: 30px;
+    border-top: 1px solid rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: center;
 }
 /*END WAY*/
 
@@ -381,63 +386,105 @@ footer a{color: white;}
     height: 100px;
     width:100%;
 }
+.sorting{
+    display: flex;
+    align-items: center;
+
+}
 .sorting-menu{
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
 }
 .sorting-menu li{
-    height: 100px;
+    line-height: 100px;
     width: 150px;
     text-align: center;
-
 }
 .sorting-menu li:first-child{
     padding-right: 150px;
     margin-left: 40px;
 }
 .sorting-menu-fontFirst{
-    font-size: 25px;
     font-weight: bolder;
     color: white;
+    background: #3c3c3c;
+    width: 251px;
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
 }
 .sorting-menu-fontSecond{
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bolder;
 }
 /*END CATEGORYMENU*/
+
 /*WRAPER*/
 .product{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.laptops{
-    display: flex;
-    flex-direction: column;
-    margin-left: 200px;
 
-}
-.laptops-product{
+.laptops{
+    position: relative;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    left: 70px;
 }
-.laptops-product li{
-    border: 1px solid black;
+.laptops-product{
+    border: 1px solid gray;
     width: 300px;
     height: 280px;
     padding: 20px;
     margin: 30px;
     text-align: center;
 }
+.laptops-product input{
+    width: 250px;
+    height: 30px;
+    background: orange;
+    border: 1px solid orange;
+}
+.laptops-product p span{
+    color: orange;
+    font-size: 20px;
+    padding-right: 5px;
+}
+.aboutLaptopsFirst{
+    position: absolute;
+    background: green;
+    left: 349px;
+    top: 15px;
+}
+.aboutLaptopsSecond{
+    position: absolute;
+    left:751px;
+    top: 15px;
+    background: green;
+}
+.aboutLaptopsThird{
+    position: absolute;
+    background: green;
+    left: 349px;
+    top: 396px;
+}
+.aboutLaptopsFourth{
+    position: absolute;
+    left:751px;
+    top: 396px;
+    background: green;
+}
 .slider-laptops{
     display: none;
 }
 .filter{
-    background: #3c3c3c;
+    background: dimgray;
     height: 400px;
-    width: 300px;
+    width: 492px;
     text-align: center;
 }
 /*END WRAPER*/
